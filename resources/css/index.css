@@ -1,0 +1,90 @@
+header nav {
+	display: flex;
+}
+div {
+	border: solid black 1px;
+}
+nav li {
+	display: inline-block;
+}
+span {
+	padding: 20px 10px;
+}
+header {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+	justify-content: space-between;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	flex-grow: 1;
+	color: mediumaquamarine;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+.column.large {
+	width: 650px;
+}
+.column.medium {
+	width: 350px;
+}
+.column.small {
+	width: 250px;
+}
+.titlecard.lead {
+	display: block;
+}
+.titlecard {
+	display: flex;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.titlecard.fish {
+	font-size: 40px;
+ 	background-image: url("../images/glasses.png");
+ 	height: 300px;
+}
+.titlecard.earth {
+	background-image: url("../images/trees.png");
+ 	height: 300px;
+}
+.titlecard.memory {
+	background-image: url("../images/camera.png");
+ 	height: 300px;
+}
+.titlecard.cat {
+	background-image: url("../images/cat.png");
+ 	height: 300px;
+}
+.article {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+}
+.stories {
+	display: flex;
+	flex-direction: row;
+}
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
